@@ -13,7 +13,7 @@ logging.basicConfig(filename='logs.txt',
                             format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
                             datefmt='%H:%M:%S'
                     )
-mytoken = os.environ['teletoken']
+mytoken = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
 bot = telebot.TeleBot(mytoken)
 def dump(obj):
     for attr in dir(obj):
