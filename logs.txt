@@ -1,0 +1,570 @@
+20:58:28,337 TeleBot INFO Started polling.
+20:58:28,338 TeleBot DEBUG Received task
+20:58:28,338 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 1, 'timeout': 20} files=None
+20:58:32,644 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[{"update_id":751830305,\n"message":{"message_id":1124,"from":{"id":242546822,"is_bot":false,"first_name":"loon_","username":"yoitsyoung","language_code":"en"},"chat":{"id":-449752609,"title":"test2","type":"group","all_members_are_administrators":true},"date":1587646712,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+20:58:32,645 TeleBot DEBUG Received 1 new updates
+20:58:32,646 TeleBot DEBUG Task complete
+20:58:32,646 TeleBot DEBUG Received task
+20:58:32,647 TeleBot DEBUG Received task
+20:58:32,648 TeleBot DEBUG Request: method=post url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/sendMessage params={'chat_id': '-449752609', 'text': "\nHello W0Rld!\nI am a bot that helps you pin questions in this group. \nTo begin, dm me with /ask [Your question subject/topic]\nSubsequently, all of your messages will be 'recorded'\nThen, use /end to end the recording!\n\nTo get a list of questions, type /questions in the group\nPlease note that naming the same topic will override the previous messages.\nTo resolve a question, type /resolve\nHappy Coding!\n"} files=None
+20:58:32,650 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830306, 'timeout': 20} files=None
+20:58:33,867 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":{"message_id":1125,"from":{"id":1188903464,"is_bot":true,"first_name":"Q&ABot","username":"Q_N_ABot"},"chat":{"id":-449752609,"title":"test2","type":"group","all_members_are_administrators":true},"date":1587646713,"text":"Hello W0Rld!\\nI am a bot that helps you pin questions in this group. \\nTo begin, dm me with /ask [Your question subject/topic]\\nSubsequently, all of your messages will be \'recorded\'\\nThen, use /end to end the recording!\\n\\nTo get a list of questions, type /questions in the group\\nPlease note that naming the same topic will override the previous messages.\\nTo resolve a question, type /resolve\\nHappy Coding!","entities":[{"offset":90,"length":4,"type":"bot_command"},{"offset":189,"length":4,"type":"bot_command"},{"offset":250,"length":10,"type":"bot_command"},{"offset":378,"length":8,"type":"bot_command"}]}}''
+20:58:33,868 TeleBot DEBUG Task complete
+20:58:37,662 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[{"update_id":751830306,\n"message":{"message_id":1126,"from":{"id":242546822,"is_bot":false,"first_name":"loon_","username":"yoitsyoung","language_code":"en"},"chat":{"id":-449752609,"title":"test2","type":"group","all_members_are_administrators":true},"date":1587646717,"text":"/resolve@Q_N_ABot","entities":[{"offset":0,"length":17,"type":"bot_command"}]}}]}''
+20:58:37,663 TeleBot DEBUG Received 1 new updates
+20:58:37,663 TeleBot DEBUG Task complete
+20:58:37,665 TeleBot DEBUG Received task
+20:58:37,665 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830307, 'timeout': 20} files=None
+20:58:42,803 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[{"update_id":751830307,\n"message":{"message_id":1127,"from":{"id":242546822,"is_bot":false,"first_name":"loon_","username":"yoitsyoung","language_code":"en"},"chat":{"id":-449752609,"title":"test2","type":"group","all_members_are_administrators":true},"date":1587646722,"text":"/questions@Q_N_ABot","entities":[{"offset":0,"length":19,"type":"bot_command"}]}}]}''
+20:58:42,804 TeleBot DEBUG Received 1 new updates
+20:58:42,805 TeleBot DEBUG Task complete
+20:58:42,805 TeleBot DEBUG Received task
+20:58:42,807 TeleBot DEBUG Received task
+20:58:42,808 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830308, 'timeout': 20} files=None
+20:58:42,808 TeleBot DEBUG Request: method=post url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/sendMessage params={'chat_id': '-449752609', 'text': '\nRight away. Here are this list of questions. Tap the corresponding number to find out more: \n\n', 'reply_markup': '{"keyboard": []}'} files=None
+20:58:43,760 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":{"message_id":1128,"from":{"id":1188903464,"is_bot":true,"first_name":"Q&ABot","username":"Q_N_ABot"},"chat":{"id":-449752609,"title":"test2","type":"group","all_members_are_administrators":true},"date":1587646723,"text":"Right away. Here are this list of questions. Tap the corresponding number to find out more:"}}''
+20:58:43,761 TeleBot DEBUG Task complete
+20:59:03,129 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+20:59:03,130 TeleBot DEBUG Received 0 new updates
+20:59:03,130 TeleBot DEBUG Task complete
+20:59:03,131 TeleBot DEBUG Received task
+20:59:03,131 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830308, 'timeout': 20} files=None
+20:59:23,325 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+20:59:23,326 TeleBot DEBUG Received 0 new updates
+20:59:23,327 TeleBot DEBUG Task complete
+20:59:23,329 TeleBot DEBUG Received task
+20:59:23,330 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830308, 'timeout': 20} files=None
+20:59:43,551 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+20:59:43,551 TeleBot DEBUG Received 0 new updates
+20:59:43,552 TeleBot DEBUG Task complete
+20:59:43,553 TeleBot DEBUG Received task
+20:59:43,553 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830308, 'timeout': 20} files=None
+20:59:54,966 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[{"update_id":751830308,\n"message":{"message_id":1129,"from":{"id":242546822,"is_bot":false,"first_name":"loon_","username":"yoitsyoung","language_code":"en"},"chat":{"id":242546822,"first_name":"loon_","username":"yoitsyoung","type":"private"},"date":1587646794,"text":"/ask","entities":[{"offset":0,"length":4,"type":"bot_command"}]}}]}''
+20:59:54,967 TeleBot DEBUG Received 1 new updates
+20:59:54,968 TeleBot DEBUG Task complete
+20:59:54,968 TeleBot DEBUG Received task
+20:59:54,970 TeleBot DEBUG Received task
+20:59:54,971 TeleBot DEBUG Request: method=post url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/sendMessage params={'chat_id': '242546822', 'text': "Try again. You didn't name a topic.", 'reply_to_message_id': 1129} files=None
+20:59:54,971 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+20:59:55,395 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":{"message_id":1130,"from":{"id":1188903464,"is_bot":true,"first_name":"Q&ABot","username":"Q_N_ABot"},"chat":{"id":242546822,"first_name":"loon_","username":"yoitsyoung","type":"private"},"date":1587646795,"reply_to_message":{"message_id":1129,"from":{"id":242546822,"is_bot":false,"first_name":"loon_","username":"yoitsyoung","language_code":"en"},"chat":{"id":242546822,"first_name":"loon_","username":"yoitsyoung","type":"private"},"date":1587646794,"text":"/ask","entities":[{"offset":0,"length":4,"type":"bot_command"}]},"text":"Try again. You didn\'t name a topic."}}''
+20:59:55,396 TeleBot DEBUG Task complete
+21:00:15,162 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:00:15,162 TeleBot DEBUG Received 0 new updates
+21:00:15,163 TeleBot DEBUG Task complete
+21:00:15,164 TeleBot DEBUG Received task
+21:00:15,164 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:00:35,350 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:00:35,351 TeleBot DEBUG Received 0 new updates
+21:00:35,351 TeleBot DEBUG Task complete
+21:00:35,353 TeleBot DEBUG Received task
+21:00:35,353 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:00:55,599 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:00:55,600 TeleBot DEBUG Received 0 new updates
+21:00:55,601 TeleBot DEBUG Task complete
+21:00:55,602 TeleBot DEBUG Received task
+21:00:55,602 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:01:15,863 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:01:15,863 TeleBot DEBUG Received 0 new updates
+21:01:15,863 TeleBot DEBUG Task complete
+21:01:15,864 TeleBot DEBUG Received task
+21:01:15,864 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:01:36,67 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:01:36,68 TeleBot DEBUG Received 0 new updates
+21:01:36,68 TeleBot DEBUG Task complete
+21:01:36,70 TeleBot DEBUG Received task
+21:01:36,70 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:01:56,279 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:01:56,279 TeleBot DEBUG Received 0 new updates
+21:01:56,279 TeleBot DEBUG Task complete
+21:01:56,280 TeleBot DEBUG Received task
+21:01:56,280 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:02:16,453 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:02:16,453 TeleBot DEBUG Received 0 new updates
+21:02:16,453 TeleBot DEBUG Task complete
+21:02:16,454 TeleBot DEBUG Received task
+21:02:16,454 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:02:36,640 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:02:36,641 TeleBot DEBUG Received 0 new updates
+21:02:36,641 TeleBot DEBUG Task complete
+21:02:36,642 TeleBot DEBUG Received task
+21:02:36,643 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:02:56,903 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:02:56,904 TeleBot DEBUG Received 0 new updates
+21:02:56,905 TeleBot DEBUG Task complete
+21:02:56,906 TeleBot DEBUG Received task
+21:02:56,906 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:03:17,132 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:03:17,133 TeleBot DEBUG Received 0 new updates
+21:03:17,134 TeleBot DEBUG Task complete
+21:03:17,135 TeleBot DEBUG Received task
+21:03:17,136 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:03:37,990 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:03:37,991 TeleBot DEBUG Received 0 new updates
+21:03:37,991 TeleBot DEBUG Task complete
+21:03:37,992 TeleBot DEBUG Received task
+21:03:37,993 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:03:58,165 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:03:58,165 TeleBot DEBUG Received 0 new updates
+21:03:58,167 TeleBot DEBUG Task complete
+21:03:58,167 TeleBot DEBUG Received task
+21:03:58,168 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:04:18,349 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:04:18,349 TeleBot DEBUG Received 0 new updates
+21:04:18,349 TeleBot DEBUG Task complete
+21:04:18,352 TeleBot DEBUG Received task
+21:04:18,352 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:04:39,20 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:04:39,20 TeleBot DEBUG Received 0 new updates
+21:04:39,21 TeleBot DEBUG Task complete
+21:04:39,22 TeleBot DEBUG Received task
+21:04:39,22 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:04:59,296 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:04:59,297 TeleBot DEBUG Received 0 new updates
+21:04:59,298 TeleBot DEBUG Task complete
+21:04:59,299 TeleBot DEBUG Received task
+21:04:59,300 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:05:20,726 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:05:20,726 TeleBot DEBUG Received 0 new updates
+21:05:20,728 TeleBot DEBUG Task complete
+21:05:20,728 TeleBot DEBUG Received task
+21:05:20,729 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:05:41,120 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:05:41,120 TeleBot DEBUG Received 0 new updates
+21:05:41,121 TeleBot DEBUG Task complete
+21:05:41,122 TeleBot DEBUG Received task
+21:05:41,122 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:06:01,425 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:06:01,426 TeleBot DEBUG Received 0 new updates
+21:06:01,427 TeleBot DEBUG Task complete
+21:06:01,428 TeleBot DEBUG Received task
+21:06:01,429 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:06:21,972 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:06:21,973 TeleBot DEBUG Received 0 new updates
+21:06:21,974 TeleBot DEBUG Task complete
+21:06:21,976 TeleBot DEBUG Received task
+21:06:21,977 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:06:42,156 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:06:42,156 TeleBot DEBUG Received 0 new updates
+21:06:42,157 TeleBot DEBUG Task complete
+21:06:42,158 TeleBot DEBUG Received task
+21:06:42,158 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:07:02,581 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:07:02,582 TeleBot DEBUG Received 0 new updates
+21:07:02,583 TeleBot DEBUG Task complete
+21:07:02,584 TeleBot DEBUG Received task
+21:07:02,585 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:07:22,993 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:07:22,994 TeleBot DEBUG Received 0 new updates
+21:07:22,994 TeleBot DEBUG Task complete
+21:07:22,995 TeleBot DEBUG Received task
+21:07:22,996 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:07:43,586 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:07:43,586 TeleBot DEBUG Received 0 new updates
+21:07:43,587 TeleBot DEBUG Task complete
+21:07:43,588 TeleBot DEBUG Received task
+21:07:43,588 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:08:04,638 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:08:04,639 TeleBot DEBUG Received 0 new updates
+21:08:04,639 TeleBot DEBUG Task complete
+21:08:04,641 TeleBot DEBUG Received task
+21:08:04,641 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:08:25,735 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:08:25,736 TeleBot DEBUG Received 0 new updates
+21:08:25,736 TeleBot DEBUG Task complete
+21:08:25,737 TeleBot DEBUG Received task
+21:08:25,738 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:08:46,88 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:08:46,89 TeleBot DEBUG Received 0 new updates
+21:08:46,89 TeleBot DEBUG Task complete
+21:08:46,90 TeleBot DEBUG Received task
+21:08:46,91 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:09:06,504 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:09:06,504 TeleBot DEBUG Received 0 new updates
+21:09:06,505 TeleBot DEBUG Task complete
+21:09:06,506 TeleBot DEBUG Received task
+21:09:06,506 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:09:27,49 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:09:27,50 TeleBot DEBUG Received 0 new updates
+21:09:27,51 TeleBot DEBUG Task complete
+21:09:27,52 TeleBot DEBUG Received task
+21:09:27,53 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:09:47,232 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:09:47,232 TeleBot DEBUG Received 0 new updates
+21:09:47,232 TeleBot DEBUG Task complete
+21:09:47,233 TeleBot DEBUG Received task
+21:09:47,233 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:10:07,434 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:10:07,435 TeleBot DEBUG Received 0 new updates
+21:10:07,436 TeleBot DEBUG Task complete
+21:10:07,436 TeleBot DEBUG Received task
+21:10:07,437 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:10:27,788 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:10:27,789 TeleBot DEBUG Received 0 new updates
+21:10:27,789 TeleBot DEBUG Task complete
+21:10:27,790 TeleBot DEBUG Received task
+21:10:27,790 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:10:47,965 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:10:47,966 TeleBot DEBUG Received 0 new updates
+21:10:47,966 TeleBot DEBUG Task complete
+21:10:47,967 TeleBot DEBUG Received task
+21:10:47,967 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:11:08,152 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:11:08,153 TeleBot DEBUG Received 0 new updates
+21:11:08,153 TeleBot DEBUG Task complete
+21:11:08,154 TeleBot DEBUG Received task
+21:11:08,154 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:11:28,332 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:11:28,332 TeleBot DEBUG Received 0 new updates
+21:11:28,333 TeleBot DEBUG Task complete
+21:11:28,334 TeleBot DEBUG Received task
+21:11:28,335 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:11:48,606 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:11:48,607 TeleBot DEBUG Received 0 new updates
+21:11:48,607 TeleBot DEBUG Task complete
+21:11:48,608 TeleBot DEBUG Received task
+21:11:48,609 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:12:08,793 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:12:08,794 TeleBot DEBUG Received 0 new updates
+21:12:08,794 TeleBot DEBUG Task complete
+21:12:08,795 TeleBot DEBUG Received task
+21:12:08,796 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:12:29,26 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:12:29,27 TeleBot DEBUG Received 0 new updates
+21:12:29,27 TeleBot DEBUG Task complete
+21:12:29,28 TeleBot DEBUG Received task
+21:12:29,29 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:12:49,510 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:12:49,511 TeleBot DEBUG Received 0 new updates
+21:12:49,511 TeleBot DEBUG Task complete
+21:12:49,512 TeleBot DEBUG Received task
+21:12:49,513 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:13:09,997 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:13:09,998 TeleBot DEBUG Received 0 new updates
+21:13:09,999 TeleBot DEBUG Task complete
+21:13:10,0 TeleBot DEBUG Received task
+21:13:10,0 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:13:30,281 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:13:30,282 TeleBot DEBUG Received 0 new updates
+21:13:30,283 TeleBot DEBUG Task complete
+21:13:30,284 TeleBot DEBUG Received task
+21:13:30,285 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:13:50,483 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:13:50,483 TeleBot DEBUG Received 0 new updates
+21:13:50,483 TeleBot DEBUG Task complete
+21:13:50,484 TeleBot DEBUG Received task
+21:13:50,484 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:14:11,441 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:14:11,441 TeleBot DEBUG Received 0 new updates
+21:14:11,442 TeleBot DEBUG Task complete
+21:14:11,443 TeleBot DEBUG Received task
+21:14:11,444 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:14:31,627 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:14:31,628 TeleBot DEBUG Received 0 new updates
+21:14:31,629 TeleBot DEBUG Task complete
+21:14:31,630 TeleBot DEBUG Received task
+21:14:31,630 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:14:52,388 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:14:52,389 TeleBot DEBUG Received 0 new updates
+21:14:52,389 TeleBot DEBUG Task complete
+21:14:52,390 TeleBot DEBUG Received task
+21:14:52,390 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:15:12,842 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:15:12,842 TeleBot DEBUG Received 0 new updates
+21:15:12,843 TeleBot DEBUG Task complete
+21:15:12,843 TeleBot DEBUG Received task
+21:15:12,844 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:15:33,352 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:15:33,353 TeleBot DEBUG Received 0 new updates
+21:15:33,353 TeleBot DEBUG Task complete
+21:15:33,354 TeleBot DEBUG Received task
+21:15:33,355 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:15:53,738 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:15:53,739 TeleBot DEBUG Received 0 new updates
+21:15:53,740 TeleBot DEBUG Task complete
+21:15:53,742 TeleBot DEBUG Received task
+21:15:53,743 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:16:14,5 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:16:14,5 TeleBot DEBUG Received 0 new updates
+21:16:14,6 TeleBot DEBUG Task complete
+21:16:14,7 TeleBot DEBUG Received task
+21:16:14,7 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:16:34,198 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:16:34,198 TeleBot DEBUG Received 0 new updates
+21:16:34,198 TeleBot DEBUG Task complete
+21:16:34,199 TeleBot DEBUG Received task
+21:16:34,200 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:16:54,784 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:16:54,784 TeleBot DEBUG Received 0 new updates
+21:16:54,785 TeleBot DEBUG Task complete
+21:16:54,786 TeleBot DEBUG Received task
+21:16:54,787 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:17:14,972 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:17:14,972 TeleBot DEBUG Received 0 new updates
+21:17:14,973 TeleBot DEBUG Task complete
+21:17:14,974 TeleBot DEBUG Received task
+21:17:14,974 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:17:35,197 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:17:35,198 TeleBot DEBUG Received 0 new updates
+21:17:35,198 TeleBot DEBUG Task complete
+21:17:35,199 TeleBot DEBUG Received task
+21:17:35,200 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:17:55,869 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:17:55,869 TeleBot DEBUG Received 0 new updates
+21:17:55,870 TeleBot DEBUG Task complete
+21:17:55,870 TeleBot DEBUG Received task
+21:17:55,871 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:18:16,366 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:18:16,366 TeleBot DEBUG Received 0 new updates
+21:18:16,367 TeleBot DEBUG Task complete
+21:18:16,368 TeleBot DEBUG Received task
+21:18:16,369 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:18:36,593 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:18:36,594 TeleBot DEBUG Received 0 new updates
+21:18:36,595 TeleBot DEBUG Task complete
+21:18:36,596 TeleBot DEBUG Received task
+21:18:36,596 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:18:56,776 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:18:56,776 TeleBot DEBUG Received 0 new updates
+21:18:56,777 TeleBot DEBUG Task complete
+21:18:56,778 TeleBot DEBUG Received task
+21:18:56,778 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:19:16,988 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:19:16,988 TeleBot DEBUG Received 0 new updates
+21:19:16,989 TeleBot DEBUG Task complete
+21:19:16,990 TeleBot DEBUG Received task
+21:19:16,991 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:19:37,443 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:19:37,444 TeleBot DEBUG Received 0 new updates
+21:19:37,444 TeleBot DEBUG Task complete
+21:19:37,445 TeleBot DEBUG Received task
+21:19:37,446 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:19:57,675 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:19:57,675 TeleBot DEBUG Received 0 new updates
+21:19:57,676 TeleBot DEBUG Task complete
+21:19:57,677 TeleBot DEBUG Received task
+21:19:57,677 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:20:17,853 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:20:17,854 TeleBot DEBUG Received 0 new updates
+21:20:17,855 TeleBot DEBUG Task complete
+21:20:17,856 TeleBot DEBUG Received task
+21:20:17,856 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:20:38,85 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:20:38,85 TeleBot DEBUG Received 0 new updates
+21:20:38,86 TeleBot DEBUG Task complete
+21:20:38,86 TeleBot DEBUG Received task
+21:20:38,86 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:20:58,357 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:20:58,357 TeleBot DEBUG Received 0 new updates
+21:20:58,357 TeleBot DEBUG Task complete
+21:20:58,358 TeleBot DEBUG Received task
+21:20:58,358 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:21:18,631 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:21:18,632 TeleBot DEBUG Received 0 new updates
+21:21:18,632 TeleBot DEBUG Task complete
+21:21:18,633 TeleBot DEBUG Received task
+21:21:18,634 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:21:38,909 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:21:38,909 TeleBot DEBUG Received 0 new updates
+21:21:38,910 TeleBot DEBUG Task complete
+21:21:38,911 TeleBot DEBUG Received task
+21:21:38,911 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:21:59,84 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:21:59,84 TeleBot DEBUG Received 0 new updates
+21:21:59,85 TeleBot DEBUG Task complete
+21:21:59,85 TeleBot DEBUG Received task
+21:21:59,86 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:22:19,662 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:22:19,662 TeleBot DEBUG Received 0 new updates
+21:22:19,663 TeleBot DEBUG Task complete
+21:22:19,664 TeleBot DEBUG Received task
+21:22:19,664 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:22:39,846 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:22:39,847 TeleBot DEBUG Received 0 new updates
+21:22:39,847 TeleBot DEBUG Task complete
+21:22:39,849 TeleBot DEBUG Received task
+21:22:39,849 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:23:00,34 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:23:00,35 TeleBot DEBUG Received 0 new updates
+21:23:00,35 TeleBot DEBUG Task complete
+21:23:00,36 TeleBot DEBUG Received task
+21:23:00,37 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:23:20,290 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:23:20,292 TeleBot DEBUG Received 0 new updates
+21:23:20,292 TeleBot DEBUG Task complete
+21:23:20,293 TeleBot DEBUG Received task
+21:23:20,294 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:23:40,768 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:23:40,769 TeleBot DEBUG Received 0 new updates
+21:23:40,770 TeleBot DEBUG Task complete
+21:23:40,772 TeleBot DEBUG Received task
+21:23:40,773 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:24:01,198 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:24:01,199 TeleBot DEBUG Received 0 new updates
+21:24:01,199 TeleBot DEBUG Task complete
+21:24:01,200 TeleBot DEBUG Received task
+21:24:01,201 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:24:21,386 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:24:21,387 TeleBot DEBUG Received 0 new updates
+21:24:21,388 TeleBot DEBUG Task complete
+21:24:21,388 TeleBot DEBUG Received task
+21:24:21,389 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:24:41,586 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:24:41,587 TeleBot DEBUG Received 0 new updates
+21:24:41,587 TeleBot DEBUG Task complete
+21:24:41,588 TeleBot DEBUG Received task
+21:24:41,588 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:25:01,845 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:25:01,846 TeleBot DEBUG Received 0 new updates
+21:25:01,846 TeleBot DEBUG Task complete
+21:25:01,847 TeleBot DEBUG Received task
+21:25:01,847 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:25:22,38 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:25:22,39 TeleBot DEBUG Received 0 new updates
+21:25:22,39 TeleBot DEBUG Task complete
+21:25:22,40 TeleBot DEBUG Received task
+21:25:22,41 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:25:42,615 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:25:42,616 TeleBot DEBUG Received 0 new updates
+21:25:42,616 TeleBot DEBUG Task complete
+21:25:42,617 TeleBot DEBUG Received task
+21:25:42,618 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:26:03,20 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:26:03,20 TeleBot DEBUG Received 0 new updates
+21:26:03,21 TeleBot DEBUG Task complete
+21:26:03,22 TeleBot DEBUG Received task
+21:26:03,23 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:26:23,237 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:26:23,238 TeleBot DEBUG Received 0 new updates
+21:26:23,238 TeleBot DEBUG Task complete
+21:26:23,239 TeleBot DEBUG Received task
+21:26:23,240 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:26:43,442 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:26:43,443 TeleBot DEBUG Received 0 new updates
+21:26:43,443 TeleBot DEBUG Task complete
+21:26:43,444 TeleBot DEBUG Received task
+21:26:43,445 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:27:03,845 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:27:03,846 TeleBot DEBUG Received 0 new updates
+21:27:03,846 TeleBot DEBUG Task complete
+21:27:03,847 TeleBot DEBUG Received task
+21:27:03,848 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:27:24,26 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:27:24,27 TeleBot DEBUG Received 0 new updates
+21:27:24,27 TeleBot DEBUG Task complete
+21:27:24,28 TeleBot DEBUG Received task
+21:27:24,29 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:27:44,370 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:27:44,370 TeleBot DEBUG Received 0 new updates
+21:27:44,371 TeleBot DEBUG Task complete
+21:27:44,372 TeleBot DEBUG Received task
+21:27:44,372 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:28:05,356 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:28:05,358 TeleBot DEBUG Received 0 new updates
+21:28:05,358 TeleBot DEBUG Task complete
+21:28:05,358 TeleBot DEBUG Received task
+21:28:05,359 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:28:25,840 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:28:25,841 TeleBot DEBUG Received 0 new updates
+21:28:25,841 TeleBot DEBUG Task complete
+21:28:25,842 TeleBot DEBUG Received task
+21:28:25,843 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:28:46,325 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:28:46,325 TeleBot DEBUG Received 0 new updates
+21:28:46,326 TeleBot DEBUG Task complete
+21:28:46,327 TeleBot DEBUG Received task
+21:28:46,328 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:29:06,678 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:29:06,678 TeleBot DEBUG Received 0 new updates
+21:29:06,679 TeleBot DEBUG Task complete
+21:29:06,680 TeleBot DEBUG Received task
+21:29:06,680 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:29:26,867 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:29:26,867 TeleBot DEBUG Received 0 new updates
+21:29:26,868 TeleBot DEBUG Task complete
+21:29:26,869 TeleBot DEBUG Received task
+21:29:26,869 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:29:47,142 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:29:47,143 TeleBot DEBUG Received 0 new updates
+21:29:47,144 TeleBot DEBUG Task complete
+21:29:47,145 TeleBot DEBUG Received task
+21:29:47,146 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:30:07,326 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:30:07,327 TeleBot DEBUG Received 0 new updates
+21:30:07,327 TeleBot DEBUG Task complete
+21:30:07,328 TeleBot DEBUG Received task
+21:30:07,329 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:30:27,879 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:30:27,879 TeleBot DEBUG Received 0 new updates
+21:30:27,881 TeleBot DEBUG Task complete
+21:30:27,882 TeleBot DEBUG Received task
+21:30:27,882 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:30:48,201 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:30:48,201 TeleBot DEBUG Received 0 new updates
+21:30:48,202 TeleBot DEBUG Task complete
+21:30:48,203 TeleBot DEBUG Received task
+21:30:48,203 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:31:08,445 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:31:08,446 TeleBot DEBUG Received 0 new updates
+21:31:08,446 TeleBot DEBUG Task complete
+21:31:08,446 TeleBot DEBUG Received task
+21:31:08,446 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:31:28,620 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:31:28,620 TeleBot DEBUG Received 0 new updates
+21:31:28,621 TeleBot DEBUG Task complete
+21:31:28,622 TeleBot DEBUG Received task
+21:31:28,622 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:31:49,626 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:31:49,627 TeleBot DEBUG Received 0 new updates
+21:31:49,628 TeleBot DEBUG Task complete
+21:31:49,629 TeleBot DEBUG Received task
+21:31:49,629 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:32:09,887 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:32:09,888 TeleBot DEBUG Received 0 new updates
+21:32:09,888 TeleBot DEBUG Task complete
+21:32:09,889 TeleBot DEBUG Received task
+21:32:09,890 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:32:30,75 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:32:30,76 TeleBot DEBUG Received 0 new updates
+21:32:30,77 TeleBot DEBUG Task complete
+21:32:30,78 TeleBot DEBUG Received task
+21:32:30,78 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:32:50,252 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:32:50,253 TeleBot DEBUG Received 0 new updates
+21:32:50,253 TeleBot DEBUG Task complete
+21:32:50,254 TeleBot DEBUG Received task
+21:32:50,255 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:33:12,320 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:33:12,321 TeleBot DEBUG Received 0 new updates
+21:33:12,321 TeleBot DEBUG Task complete
+21:33:12,323 TeleBot DEBUG Received task
+21:33:12,323 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:33:32,498 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:33:32,499 TeleBot DEBUG Received 0 new updates
+21:33:32,499 TeleBot DEBUG Task complete
+21:33:32,499 TeleBot DEBUG Received task
+21:33:32,500 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:33:52,998 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:33:52,998 TeleBot DEBUG Received 0 new updates
+21:33:52,998 TeleBot DEBUG Task complete
+21:33:52,999 TeleBot DEBUG Received task
+21:33:52,999 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:34:13,792 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:34:13,792 TeleBot DEBUG Received 0 new updates
+21:34:13,794 TeleBot DEBUG Task complete
+21:34:13,794 TeleBot DEBUG Received task
+21:34:13,794 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:34:34,11 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:34:34,12 TeleBot DEBUG Received 0 new updates
+21:34:34,12 TeleBot DEBUG Task complete
+21:34:34,13 TeleBot DEBUG Received task
+21:34:34,13 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:34:54,192 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:34:54,192 TeleBot DEBUG Received 0 new updates
+21:34:54,192 TeleBot DEBUG Task complete
+21:34:54,193 TeleBot DEBUG Received task
+21:34:54,194 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
+21:35:14,376 TeleBot DEBUG The server returned: 'b'{"ok":true,"result":[]}''
+21:35:14,376 TeleBot DEBUG Received 0 new updates
+21:35:14,376 TeleBot DEBUG Task complete
+21:35:14,377 TeleBot DEBUG Received task
+21:35:14,377 TeleBot DEBUG Request: method=get url=https://api.telegram.org/bot1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY/getUpdates params={'offset': 751830309, 'timeout': 20} files=None
