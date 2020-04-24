@@ -3,6 +3,8 @@ from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeybo
 import logging
 import threading #possibility to use for timing out
 import json
+from flask import Flask, request
+
 # to build a storage file...?
 
 # DEBUGGING THINGS
@@ -37,9 +39,9 @@ topic_dict = {}
 BOT_ID = 1188903464
 ADMIN_ID = 242546822
 GROUP_ID = 1001358411804
-mytoken = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
-bot = telebot.TeleBot(mytoken)
-
+TOKEN = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
+bot = telebot.TeleBot(TOKEN)
+server = Flask(__name__)
 class stored_msg():
     def __init__(self, msg_id,chat_id):
         self.original_msg_id = msg_id
@@ -236,3 +238,20 @@ def store_dict(msg):
 
 
 #Webhook functions
+APP_LINK = 'https://powerful-beach-86283.herokuapp.com/'
+
+@server.route('/' + TOKEN, methods=['POST'])
+def getMessage():
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "!", 200
+
+
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url=APP_LINK + TOKEN)
+    return "!", 200
+
+
+if __name__ == "__main__":
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
