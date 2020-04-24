@@ -145,7 +145,7 @@ def end_text(msg):
     bot.reply_to(msg, "Recording has ended. Do not delete this chat, or my memory will be wiped!")
     TOPIC_NAME = USER_STEP[msg.chat.id][1]
     qn_notif = 'A new question has been posted!\n' + TOPIC_NAME
-    bot.send_message(chat_id = GROUP_ID, text = qn_notif)
+    #bot.send_message(chat_id = GROUP_ID, text = qn_notif)
     del USER_STEP[msg.chat.id]
 
 #this function gets the list of questions, while sending a message indicating the question topic and corresponding number
