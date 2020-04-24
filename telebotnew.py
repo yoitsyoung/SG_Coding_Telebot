@@ -13,8 +13,8 @@ logging.basicConfig(filename='logs.txt',
                             format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
                             datefmt='%H:%M:%S'
                     )
-mytoken = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
-bot = telebot.TeleBot(mytoken)
+
+
 def dump(obj):
     for attr in dir(obj):
         print("obj.%s = %r" % (attr, getattr(obj, attr)))
@@ -26,13 +26,20 @@ Need to program this bot so multiple users can use at once....
 Constants needed: USER_STEP and TOPIC_NAME, all should be specific to one user. Can be bypassed with a listener
 '''
 
-USER_STEP = {}
+
 #User step will be a dictionary of key: value pair chat_id to list [x,y,z]
 #x: current step
 #y: recording topic (if needexists)
 #z: message instance for tracking who is replying to a bot in a group
 
+USER_STEP = {}
 topic_dict = {}
+BOT_ID = 1188903464
+ADMIN_ID = 242546822
+GROUP_ID = 1001358411804
+mytoken = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
+bot = telebot.TeleBot(mytoken)
+
 class stored_msg():
     def __init__(self, msg_id,chat_id):
         self.original_msg_id = msg_id
@@ -56,7 +63,7 @@ def check_user_step(message):
 def check_reply(message):
     try:
         print(message.reply_to_message.from_user.id)
-        return message.reply_to_message.from_user.id == 1188903464
+        return message.reply_to_message.from_user.id == BOT_ID
         
     except Exception as e:
         print('Expected error in checking reply', e)
@@ -134,6 +141,9 @@ def end_text(msg):
     global USER_STEP
     global topic_dict
     bot.reply_to(msg, "Recording has ended. Do not delete this chat, or my memory will be wiped!")
+    TOPIC_NAME = USER_STEP[msg.chat.id][1]
+    qn_notif = 'A new question has been posted!\n' + TOPIC_NAME
+    bot.send_message(chat_id = GROUP_ID, text = qn_notif)
     del USER_STEP[msg.chat.id]
 
 #this function gets the list of questions, while sending a message indicating the question topic and corresponding number
@@ -217,7 +227,7 @@ def check_user_del_topic(msg):
         bot.send_message(chat_id = current_chat_id, text = 'Question removed! Thank the user who answered you.', reply_markup = ReplyKeyboardRemove())
     del USER_STEP[msg.chat.id]
 #ADMIN FUNCTIONS
-@bot.message_handler(commands=['store'], content_types = ['text'], func =  lambda message: message.chat.id == 242546822)
+@bot.message_handler(commands=['store'], content_types = ['text'], func =  lambda message: message.chat.id == ADMIN_ID)
 def store_dict(msg):
     global topic_dict
     output = open('data.json','a')
@@ -225,4 +235,4 @@ def store_dict(msg):
 
 
 
-bot.polling()
+#Webhook functions
