@@ -36,10 +36,10 @@ Constants needed: USER_STEP and TOPIC_NAME, all should be specific to one user. 
 
 USER_STEP = {}
 topic_dict = {}
-BOT_ID = 1188903464
-ADMIN_ID = 242546822
-GROUP_ID = 1001358411804
-TOKEN = '1188903464:AAFt1oJnTo5byKZl0gtoRt757mAX--1IIdY'
+BOT_ID = 0
+ADMIN_ID = 0
+GROUP_ID = 0
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 class stored_msg():
